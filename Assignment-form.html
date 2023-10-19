@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+      .dropdown-menu {
+	position:relative;
+	width:100%;
+	top: 0px !important;
+    left: 0px !important;
+}
+  </style>  
+</head>
+<body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var data = 
+            [{"id":"222","name":"sneha","employee_salary":"100000","employee_age":"23"},{"id":"223","name":"arpita","employee_salary":"40000","employee_age":"33"},{"id":"225","name":"pogi","employee_salary":"5646545","employee_age":"546"},{"id":"229","name":"eer","employee_salary":"0","employee_age":"0"},{"id":"232","name":"sdfadf","employee_salary":"0","employee_age":"0"},{"id":"234","name":"dfgdgd","employee_salary":"45","employee_age":"21"},{"id":"236","name":"nb","employee_salary":"0","employee_age":"0"},{"id":"237","name":"BHsdgygbfvr1bn","employee_salary":"0","employee_age":"0"},{"id":"238","name":"BHsdgygbfvr1bn","employee_salary":"0","employee_age":"0"},{"id":"239","name":"assa","employee_salary":"0","employee_age":"0"}];
+            var $input = $(".typeahead");
+            $input.typeahead({
+            source: data,
+            autoSelect: true
+            });
+        });
+    </script>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Middle name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="container">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="xyz@gmail.com">
+            </div>
+    
+            <br><br>
+    
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Password</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+    
+            <br><br>
+    
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Confirm Password</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+    
+            <br><br>
+    
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Age</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div> 
+        </div>  
+        
+        <br><br>
+
+        <div class="container">
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">City</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Belagavi</option>
+                  <option>Bengaluru</option>
+                  <option>Pune</option>
+                  <option>Mumbai</option>
+                  <option>Delhi</option>
+                </select>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                         Swimming 
+                        </label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                         Singing
+                        </label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                         Dancing 
+                        </label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                         Book Reading
+                        </label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                         Playing Sports
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form>
+                        <input type="radio" name="gender" value="male" id="male">
+                        <label for="male">Male</label>
+                        
+    
+                      </form>
+                </div>
+                <div class="col">
+                    <input type="radio" name="gender" value="female" id="female">
+                        <label for="female">Female</label>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="container">
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Profile Description</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="15"></textarea>
+              </div>
+        </div>
+
+        <br><br>
+
+        <div class="container">
+            <div class="form-group" style>
+                <label for="exampleFormControlFile1">Upload Pic</label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="container">
+            <div class="form-check form-check-inline">
+                <div class="row">
+                    <div class="col">
+                        <button onclick="goToNextLink()">Submit</button>
+                    <div>
+                        <script>
+                            function goToNextLink() {
+                                window.location.href = "http://127.0.0.1:5500/Dashboard-page.html";
+                            }
+                            </script>
+                    </div>
+                </div>
+                <br>
+        </div>
+
+        <br>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <body >
+      
+    <form method="post" action="first.html" style="background-color:coral; text-align: center;">
+
+    <div>
+        <label for="first">First Name</label>
+        <input type="text" name="first" id="first" placeholder="Enter First Name" required/>
+    </div>
+
+    <div>
+        <label for="contact" style="color: rgb(232, 232, 239); font-size: larger; font-family: 'Courier New', Courier, monospace;">Contact number</label>
+        <input type="text" name="contact" id="contact" placeholder="Enter Contact"/>
+    </div>
+
+    <div>
+        <label for="age1">Age</label><br>
+        <input type="number" name="age" id="age1" min="18" max="60">
+    </div>
+
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter password here"/>
+    </div>
+
+    <div>
+        <label for="date">Date Of Birth</label>
+        <input type="date" name="date" id="date" placeholder="Enter your DOB" required/>
+    </div>
+
+    <br>
+    <div>
+        <label for="gender">SELECT GENDER</label><br>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+    </div>
+
+    <br>
+     <!-- This is checkbox code -->
+    <div>
+        <b>SELECT SUBJECTS</b>
+              <br>
+              <input type="checkbox" name="subject" id="maths">
+              <label for="maths">Maths</label>
+              <input type="checkbox" name="subject" id="science">
+              <label for="science">Science</label>
+              <input type="checkbox" name="subject" id="english">
+              <label for="english">English</label>
+    </div>
+
+    <br>
+    <div>
+        <label for="fileselect">Upload:</label>
+        <input type="file" name="upload" id="fileselect">
+    </div>
+    
+    <br>
+    <div>
+        <label for="Description">Description:</label>
+        <textarea rows="5" cols="100" name="Description" id="Description" placeholder="Enter the Description"> </textarea>
+    </div>
+
+    <div>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+           <option value="India">India New</option>
+           <option value="Sri Lanka">Sri Lanka</option>
+           <option value="Australia">Australia</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="car">Your Cars Name: </label>
+        <input type="text" name="car" id="car" list="cars">           
+            <datalist id="cars">
+                  <option value="BMW"/>
+                  <option value="Bentley"/>
+                  <option value="Mercedes"/>
+                  <option value="Audi"/>
+                  <option value="Audi-1"/>
+                  <option value="Audi-2"/>
+                  <option value="Volkswagen"/>
+            </datalist>
+    </div>
+
+    <div>
+        <input type="button" value="Click" >
+    </div>
+
+    <div>
+        <input type="submit" value="Submit">
+  
+        <button type="reset"> 
+         <img src="https://unsplash.it/16/16"/>
+         Reset </button>
+    </div>
+
+    <div>
+        <!--  below will come using : type Lorem 20-->
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sapiente eveniet explicabo tempora autem est 
+        debitis cupiditate eius, tempore quam!
+    </div>
+
+    
+    </form>
+    </body>
+</html>

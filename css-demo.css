@@ -1,0 +1,29 @@
+#p1{
+    color: blue;
+}
+
+#p2{
+    color: brown;
+}
+
+#p3{
+    color: green;
+}
+
+.p4{
+    background-color: yellow;
+}
+
+head {
+    background-image: url(images/zomato.png);
+    text-align: center;
+    
+  }
+
+.d1{
+    text-align: center;
+}
+
+.d2{
+    text-align: center;
+}
